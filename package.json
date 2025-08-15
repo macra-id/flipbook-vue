@@ -36,6 +36,8 @@
     }
   },
   "scripts": {
+    "docs:build": "vuepress build docs",
+    "docs:dev": "vuepress dev docs",
     "dist": "rollup -c rollup.config.js"
   },
   "devDependencies": {
